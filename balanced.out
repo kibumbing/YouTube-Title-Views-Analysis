@@ -1,0 +1,159 @@
+using cached model. /home/kibum/youtube_data_analysis/.cache/kobert_v1.zip
+using cached model. /home/kibum/youtube_data_analysis/.cache/kobert_news_wiki_ko_cased-1087f8699e.spiece
+using cached model. /home/kibum/youtube_data_analysis/.cache/kobert_news_wiki_ko_cased-1087f8699e.spiece
+  0%|          | 0/37 [00:00<?, ?it/s]
+youtube_classification.py:85: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  for batch_id, (token_ids, valid_length, segment_ids, label) in enumerate(tqdm_notebook(train_dataloader)):
+epoch 1 batch id 1 loss 0.7592714428901672 train acc 0.484375
+epoch 1 train acc 0.5277509652509653
+  0%|          | 0/6 [00:00<?, ?it/s]
+youtube_classification.py:105: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  for batch_id, (token_ids, valid_length, segment_ids, label) in enumerate(tqdm_notebook(test_dataloader)):
+epoch 1 test acc 0.522769764957265
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 2 batch id 1 loss 0.6656731367111206 train acc 0.640625
+epoch 2 train acc 0.6710907335907336
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 2 test acc 0.679553952991453
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 3 batch id 1 loss 0.5199002027511597 train acc 0.765625
+epoch 3 train acc 0.8147321428571428
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 3 test acc 0.702991452991453
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 4 batch id 1 loss 0.3246731460094452 train acc 0.828125
+epoch 4 train acc 0.9055863899613901
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 4 test acc 0.7630876068376069
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 5 batch id 1 loss 0.1571730375289917 train acc 0.9375
+epoch 5 train acc 0.9598817567567568
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 5 test acc 0.7671607905982906
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 6 batch id 1 loss 0.07935675233602524 train acc 0.984375
+epoch 6 train acc 0.9607263513513513
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 6 test acc 0.8175747863247863
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 7 batch id 1 loss 0.03267931565642357 train acc 1.0
+epoch 7 train acc 0.9767736486486487
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 7 test acc 0.7431891025641025
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 8 batch id 1 loss 0.009364819154143333 train acc 1.0
+epoch 8 train acc 0.9856418918918919
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 8 test acc 0.7638221153846154
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 9 batch id 1 loss 0.0039771250449121 train acc 1.0
+epoch 9 train acc 0.9860641891891891
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 9 test acc 0.7699652777777778
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 10 batch id 1 loss 0.002300841500982642 train acc 1.0
+epoch 10 train acc 0.9936655405405406
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 10 test acc 0.7396501068376069
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 11 batch id 1 loss 0.08238396793603897 train acc 0.984375
+epoch 11 train acc 0.995777027027027
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 11 test acc 0.7422542735042735
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 12 batch id 1 loss 0.0010949871502816677 train acc 1.0
+epoch 12 train acc 0.9940878378378378
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 12 test acc 0.7881944444444445
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 13 batch id 1 loss 0.0026960878167301416 train acc 1.0
+epoch 13 train acc 0.9966216216216216
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 13 test acc 0.7962072649572649
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 14 batch id 1 loss 0.0005775834433734417 train acc 1.0
+epoch 14 train acc 0.9983108108108109
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 14 test acc 0.7805822649572649
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 15 batch id 1 loss 0.0005359606584534049 train acc 1.0
+epoch 15 train acc 0.9991554054054054
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 15 test acc 0.7770432692307692
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 16 batch id 1 loss 0.005313921254128218 train acc 1.0
+epoch 16 train acc 0.9974662162162162
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 16 test acc 0.7917334401709403
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 17 batch id 1 loss 0.000497973698657006 train acc 1.0
+epoch 17 train acc 0.9987331081081081
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 17 test acc 0.7917334401709403
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 18 batch id 1 loss 0.00029796132002957165 train acc 1.0
+epoch 18 train acc 0.9974662162162162
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 18 test acc 0.7848557692307692
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 19 batch id 1 loss 0.0009969426319003105 train acc 1.0
+epoch 19 train acc 0.9983108108108109
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 19 test acc 0.7301682692307692
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 20 batch id 1 loss 0.0003246316919103265 train acc 1.0
+epoch 20 train acc 0.9974662162162162
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 20 test acc 0.7839209401709403
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 21 batch id 1 loss 0.00023977772798389196 train acc 1.0
+epoch 21 train acc 0.9995777027027027
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 21 test acc 0.7839209401709403
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 22 batch id 1 loss 0.00020918100199196488 train acc 1.0
+epoch 22 train acc 0.9987331081081081
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 22 test acc 0.7900641025641025
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 23 batch id 1 loss 0.00017718481831252575 train acc 1.0
+epoch 23 train acc 0.9991554054054054
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 23 test acc 0.7891292735042735
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 24 batch id 1 loss 0.0001814467104850337 train acc 1.0
+epoch 24 train acc 0.9995777027027027
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 24 test acc 0.7839209401709403
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 25 batch id 1 loss 0.00018226173415314406 train acc 1.0
+epoch 25 train acc 0.9995777027027027
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 25 test acc 0.7943376068376069
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 26 batch id 1 loss 0.0001737304701237008 train acc 1.0
+epoch 26 train acc 0.9991554054054054
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 26 test acc 0.7943376068376069
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 27 batch id 1 loss 0.00017546139133628458 train acc 1.0
+epoch 27 train acc 0.9995777027027027
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 27 test acc 0.7943376068376069
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 28 batch id 1 loss 0.00017043847765307873 train acc 1.0
+epoch 28 train acc 0.9995777027027027
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 28 test acc 0.7943376068376069
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 29 batch id 1 loss 0.00017201100126840174 train acc 1.0
+epoch 29 train acc 0.9991554054054054
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 29 test acc 0.7943376068376069
+  0%|          | 0/37 [00:00<?, ?it/s]
+epoch 30 batch id 1 loss 0.00014878969523124397 train acc 1.0
+epoch 30 train acc 0.9995777027027027
+  0%|          | 0/6 [00:00<?, ?it/s]
+epoch 30 test acc 0.7943376068376069
