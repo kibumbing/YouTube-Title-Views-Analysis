@@ -14,8 +14,9 @@ from bert_model import *
 import pandas as pd
 
 # cdm_train_data = pd.read_csv("balanced_calmdownman_train.csv")
+cdm_train_data = pd.read_csv("balanced2_calmdownman_train.csv")
 # cdm_train_data = pd.read_csv("normal_calmdownman_train.csv")
-cdm_train_data = pd.read_csv("unbalanced_calmdownman_train.csv")
+# cdm_train_data = pd.read_csv("unbalanced_calmdownman_train.csv")
 cdm_test_data = pd.read_csv("calmdownman_test.csv")
 
 device = torch.device("cuda:1")
@@ -114,5 +115,6 @@ for e in range(num_epochs):
 
 # 학습 모델 저장
 # torch.save(model, 'balanced_model.pt')
+torch.save(model, 'balanced2_model.pt')
 # torch.save(model, 'normal_model.pt')
-torch.save(model, 'unbalanced_model.pt')
+# torch.save(model, 'unbalanced_model.pt')

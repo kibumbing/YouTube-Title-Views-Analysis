@@ -16,8 +16,9 @@ tokenizer = get_tokenizer()
 tok = nlp.data.BERTSPTokenizer(tokenizer, vocab, lower=False)
 
 # model = torch.load('normal_model.pt')
-# model = torch.load('unbalanced_model.pt')
+model = torch.load('unbalanced_model.pt')
 # model = torch.load('balanced_model.pt')
+# model = torch.load('balanced2_model.pt')
 
 def predict(predict_sentence):
     data = [predict_sentence, '0']
@@ -83,5 +84,5 @@ while end == 1 :
     if predict(sentence) == 0:
         print("조회수가 100만 미만 입니다.")
     elif predict(sentence) == 1:
-        print.append("조회수가 100만 이상입니다.")
+        print("조회수가 100만 이상입니다.")
     print("\n")

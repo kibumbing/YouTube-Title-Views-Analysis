@@ -23,23 +23,30 @@ if __name__ == '__main__':
 
     sorted_views = []
     start = time.time()
+    views = views_temp.copy()
     sorted_views = bubble_sort(views)
     print(f"bubble sort:{time.time()-start}")
+    views = views_temp.copy()
     start = time.time()
     sorted_views = selection_sort(views)
     print(f"selection sort:{time.time() - start}")
+    views = views_temp.copy()
     start = time.time()
     sorted_views = insertion_sort(views)
     print(f"insertion sort:{time.time() - start}")
+    views = views_temp.copy()
     start = time.time()
     sorted_views = merge_sort(views)
     print(f"merge_sort sort:{time.time() - start}")
+    views = views_temp.copy()
     start = time.time()
     sorted_views = quick_sort(views)
     print(f"quick sort:{time.time() - start}")
+    views = views_temp.copy()
     start = time.time()
     sorted_views = heap_sort(views)
     print(f"heap sort:{time.time() - start}")
+    views = views_temp.copy()
     start = time.time()
     sorted_views = radix_sort(views)
     print(f"radix sort:{time.time() - start}")
@@ -79,7 +86,12 @@ if __name__ == '__main__':
     train_data = train_data.sample(frac=1).reset_index(drop=True)
     train_data.to_csv('balanced_calmdownman_train.csv')
 
-    train_data = pd.concat([up_100[:len_up].sample(n=len_down, replace=True), down_100[:len_down]],
+    train_data = pd.concat([up_100[:len_up], down_100[:len_down].sample(n=len_up, replace=True)],
+                           ignore_index=True)
+    train_data = train_data.sample(frac=1).reset_index(drop=True)
+    train_data.to_csv('balanced2_calmdownman_train.csv')
+
+    train_data = pd.concat([up_100[:len_up], down_100[:len_down]],
                            ignore_index=True)
     train_data = train_data.sample(frac=1).reset_index(drop=True)
     train_data.to_csv('normal_calmdownman_train.csv')
